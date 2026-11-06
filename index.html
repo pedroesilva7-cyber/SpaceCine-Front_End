@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Matheu Maia Alvarez">
-    <meta name = "descripition" content = "Pagina sebre cinema, desenvolvida no curso de Lima do Senai. O objetivo é aprender a construir a pagina web">
-    <meta name=" keywords" content="HTML,CSS,Filmes,cinema">
+    <meta name="author" content="Matheus Maia Alvarez">
+    <meta name="description" content="Página sobre cinema, desenvolvida no curso de LIMA do SENAI. O objetivo é aprender a construir página web">
+    <meta name="keywords" content="HTML, CSS, Filmes, cinema">
     <title>SpaceCine</title>
-
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- cabeçalho -->
-     <header>
-        <!-- grupo1 -->
-         <img src="src/assets/images/logo.svg" alt="Logo SpaceCine">
-        <!-- grupo2 -->
-         <nav>
-            <ul>
+
+    <!-- ----------- Cabeçalho ----------- -->
+    <header>
+
+        <!-- Grupo 1 -->
+        <img src="./src/assets/images/logo.svg" alt="Logo SpaceCine">
+
+        <!-- Grupo 2 -->
+        <nav>
+            <ul class="menu">
                 <li><a href="">Início</a></li>
-                <li><a href="">Em cartaz</a></li>
+                <li><a href="">Em cartaz</a></li>            
                 <li><a href="">Diferenciais</a></li>
                 <li><a href="">Destaques</a></li>
                 <li><a href="">Avaliações</a></li>
             </ul>
-         </nav>
-        <!-- grupo3 -->
-         <nav>
-             <a href="">Login</a>
         </nav>
-     </header>
 
+        <!-- Grupo 3 -->
+        <nav>
+            <a href="" class="btnLogin">Login</a>            
+        </nav>
+
+    </header>
     
 </body>
 </html>
