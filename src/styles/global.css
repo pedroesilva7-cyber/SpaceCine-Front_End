@@ -21,3 +21,6 @@
     --font-title:  "Bebas Neue", sans-serif;
     --font-body: 
 }
+.text-highlight{
+    color: var(--color-purple400);
+}
